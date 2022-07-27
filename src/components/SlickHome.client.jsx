@@ -26,7 +26,7 @@ export default function SlickHome() {
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
       />
-    <Slider {...settings}>
+    {/* <Slider {...settings}>
       <div>
         <h3>1</h3>
       </div>
@@ -45,7 +45,7 @@ export default function SlickHome() {
       <div>
         <h3>6</h3>
       </div>
-    </Slider>
+    </Slider> */}
     </>
   );
 }
