@@ -1,3 +1,5 @@
+import SlickHome from "../components/SlickHome.client";
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return <SlickHome />;
 }
