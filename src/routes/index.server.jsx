@@ -1,10 +1,10 @@
 import { Suspense } from "react";
-import SlickHome from "../components/SlickHome.client";
+import SimpleSlider from "../components/SimpleSlider.client";
 
 export default function Home() {
   return (
     <Suspense>
-      <SlickHome />
+      <SimpleSlider />
     </Suspense>
   );
 }

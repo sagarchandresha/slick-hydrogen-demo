@@ -1,11 +1,8 @@
-// The component name must finish with .client.jsx | .client.tsx
-// import 'slick-carousel/slick/slick.css';
-// import 'slick-carousel/slick/slick-theme.css';
-
+// The component name must finish with .client.[jsx/tsx]
 import React from 'react';
-import Slider from 'react-slick';
+import Slider from '@ant-design/react-slick';
 
-export default function SlickHome() {
+export default function SimpleSlider() {
   const settings = {
     dots: true,
     infinite: true,
