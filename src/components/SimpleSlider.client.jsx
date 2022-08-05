@@ -15,11 +15,11 @@ export default function SimpleSlider() {
     <div className="container">
       <h2>Slick Slider With Hydrogen App.</h2>
       <Slider {...settings}>
-        <img src="/src/assets/1.jpg" width="500px" height="400px" />
-        <img src="/src/assets/2.jpg" width="500px" height="400px" />
-        <img src="/src/assets/3.jpg" width="500px" height="400px" />
-        <img src="/src/assets/4.jpg" width="500px" height="400px" />
-        <img src="/src/assets/5.jpeg" width="500px" height="400px" />
+        <img src="/images/1.jpg" width="500px" height="400px" />
+        <img src="/images/2.jpg" width="500px" height="400px" />
+        <img src="/images/3.jpg" width="500px" height="400px" />
+        <img src="/images/4.jpg" width="500px" height="400px" />
+        <img src="/images/5.jpeg" width="500px" height="400px" />
       </Slider>
     </div>
   );
